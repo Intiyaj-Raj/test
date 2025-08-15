@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .heart {
+            width: 400px;
+            height: 200px;
+            margin: 100px;
+            font-size: 200px;
+            animation: heart 1s infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes heart {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.5)
+            }
+
+            100% {
+                transform: scale(1);
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heart">💗</div>
+
+</body>
+
+</html>
